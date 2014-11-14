@@ -3,13 +3,20 @@
 //  Algorithms
 //
 //  Created by Mohammed Abdelkarym on 11/13/14.
-//  Copyright (c) 2014 mo7amedkhairy. All rights reserved.
-//
+//  Copyright MIT
+//  Developer Mohammed khairy ahssan abdelakrym
+//  Algorthims in this project are from -----> http://algs4.cs.princeton.edu/home/
 
 #include <iostream>
+#include "QuickFind.cpp"
+#include "QuickUnion.cpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    
+    
+    QuickFind quickFind;
+    QuickUnion quickUnion;
+    
     std::cout << "Hello, World!\n";
     return 0;
 }

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		CB5DC9FC1A1582B4004D3949 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB5DC9FB1A1582B4004D3949 /* main.cpp */; };
 		CB5DCA041A1582F6004D3949 /* QuickFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB5DCA021A1582F6004D3949 /* QuickFind.cpp */; };
+		CB5DCA091A159507004D3949 /* QuickUnion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB5DCA071A159507004D3949 /* QuickUnion.cpp */; };
+		CB5DCA0B1A15BAB7004D3949 /* QuickUnionWeightedTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB5DCA0A1A15BAB7004D3949 /* QuickUnionWeightedTree.cpp */; };
+		CB5DCA0D1A15CA5B004D3949 /* QuickUnionWeithedPathCmpression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB5DCA0C1A15CA5B004D3949 /* QuickUnionWeithedPathCmpression.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,10 @@
 		CB5DC9F81A1582B4004D3949 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5DC9FB1A1582B4004D3949 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CB5DCA021A1582F6004D3949 /* QuickFind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickFind.cpp; sourceTree = "<group>"; };
+		CB5DCA061A1592AE004D3949 /* helping.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = helping.strings; sourceTree = "<group>"; };
+		CB5DCA071A159507004D3949 /* QuickUnion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickUnion.cpp; sourceTree = "<group>"; };
+		CB5DCA0A1A15BAB7004D3949 /* QuickUnionWeightedTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickUnionWeightedTree.cpp; sourceTree = "<group>"; };
+		CB5DCA0C1A15CA5B004D3949 /* QuickUnionWeithedPathCmpression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickUnionWeithedPathCmpression.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,18 +66,22 @@
 		CB5DC9FA1A1582B4004D3949 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				CB5DCA051A1582FC004D3949 /* quickfind */,
+				CB5DCA051A1582FC004D3949 /* Week1 */,
 				CB5DC9FB1A1582B4004D3949 /* main.cpp */,
+				CB5DCA061A1592AE004D3949 /* helping.strings */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
 		};
-		CB5DCA051A1582FC004D3949 /* quickfind */ = {
+		CB5DCA051A1582FC004D3949 /* Week1 */ = {
 			isa = PBXGroup;
 			children = (
 				CB5DCA021A1582F6004D3949 /* QuickFind.cpp */,
+				CB5DCA071A159507004D3949 /* QuickUnion.cpp */,
+				CB5DCA0A1A15BAB7004D3949 /* QuickUnionWeightedTree.cpp */,
+				CB5DCA0C1A15CA5B004D3949 /* QuickUnionWeithedPathCmpression.cpp */,
 			);
-			name = quickfind;
+			name = Week1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB5DCA0D1A15CA5B004D3949 /* QuickUnionWeithedPathCmpression.cpp in Sources */,
 				CB5DCA041A1582F6004D3949 /* QuickFind.cpp in Sources */,
 				CB5DC9FC1A1582B4004D3949 /* main.cpp in Sources */,
+				CB5DCA0B1A15BAB7004D3949 /* QuickUnionWeightedTree.cpp in Sources */,
+				CB5DCA091A159507004D3949 /* QuickUnion.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,19 @@
+/* 
+  helping.strings
+  Algorithms
+
+  Created by Mohammed Abdelkarym on 11/13/14.
+  Copyright (c) 2014 mo7amedkhairy. All rights reserved.
+*/
+
+
+/*
+ 
+ #include <thread>         // std::this_thread::sleep_for
+ #include <chrono>         // std::chrono::seconds
+
+ 
+ std::this_thread::sleep_for (std::chrono::seconds(40));
+ 
+ 
+ */
