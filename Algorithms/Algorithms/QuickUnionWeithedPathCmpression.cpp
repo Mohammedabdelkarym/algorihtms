@@ -18,11 +18,11 @@
 
 using namespace std;
 
-class QuickUnionWeightedTree
+class QuickUnionWeithedPathCmpression
 {
     
 public:
-    QuickUnionWeightedTree()
+    QuickUnionWeithedPathCmpression()
     {
         numberOfObjects=10;
         start();

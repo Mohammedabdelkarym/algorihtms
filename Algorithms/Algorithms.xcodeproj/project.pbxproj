@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB10DC351A191CBD000EED28 /* TripleSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB10DC341A191CBD000EED28 /* TripleSum.cpp */; };
 		CB5DC9FC1A1582B4004D3949 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB5DC9FB1A1582B4004D3949 /* main.cpp */; };
 		CB5DCA041A1582F6004D3949 /* QuickFind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB5DCA021A1582F6004D3949 /* QuickFind.cpp */; };
 		CB5DCA091A159507004D3949 /* QuickUnion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB5DCA071A159507004D3949 /* QuickUnion.cpp */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CB10DC341A191CBD000EED28 /* TripleSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TripleSum.cpp; sourceTree = "<group>"; };
 		CB5DC9F81A1582B4004D3949 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5DC9FB1A1582B4004D3949 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CB5DCA021A1582F6004D3949 /* QuickFind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickFind.cpp; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				CB5DCA071A159507004D3949 /* QuickUnion.cpp */,
 				CB5DCA0A1A15BAB7004D3949 /* QuickUnionWeightedTree.cpp */,
 				CB5DCA0C1A15CA5B004D3949 /* QuickUnionWeithedPathCmpression.cpp */,
+				CB10DC341A191CBD000EED28 /* TripleSum.cpp */,
 			);
 			name = Week1;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				CB5DCA0D1A15CA5B004D3949 /* QuickUnionWeithedPathCmpression.cpp in Sources */,
 				CB5DCA041A1582F6004D3949 /* QuickFind.cpp in Sources */,
 				CB5DC9FC1A1582B4004D3949 /* main.cpp in Sources */,
+				CB10DC351A191CBD000EED28 /* TripleSum.cpp in Sources */,
 				CB5DCA0B1A15BAB7004D3949 /* QuickUnionWeightedTree.cpp in Sources */,
 				CB5DCA091A159507004D3949 /* QuickUnion.cpp in Sources */,
 			);
@@ -258,6 +262,7 @@
 				CB5DCA011A1582B4004D3949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

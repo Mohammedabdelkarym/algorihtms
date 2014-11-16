@@ -10,13 +10,18 @@
 #include <iostream>
 #include "QuickFind.cpp"
 #include "QuickUnion.cpp"
+#include "QuickUnionWeightedTree.cpp"
+#include "QuickUnionWeithedPathCmpression.cpp"
+#include "TripleSum.cpp"
 
 int main(int argc, const char * argv[]) {
     
     
-    QuickFind quickFind;
-    QuickUnion quickUnion;
-    
+    //QuickFind quickFind;
+    //QuickUnion quickUnion;
+    //QuickUnion QuickUnionWeightedTree;
+    //QuickUnion QuickUnionWeithedPathCmpression;
+    TripleSum tripleSum;
     std::cout << "Hello, World!\n";
     return 0;
 }
