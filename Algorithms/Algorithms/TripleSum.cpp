@@ -29,7 +29,7 @@ class TripleSum
 public:
     TripleSum()
     {
-        numberOfObjects=32000;
+        numberOfObjects=16000;
         start();
     }
     
@@ -46,20 +46,20 @@ private:
         array=new int[numberOfObjects];
         int counter=0;
         while(counter<numberOfObjects){
-            int x = -numberOfObjects + ( std::rand() % ( numberOfObjects + 1 ) );
-            
-            if(std::find(vector.begin(), vector.end(), x)==vector.end()){
+            int x = -numberOfObjects + ( std::rand() % ( (2*numberOfObjects) - 1 ) );
+             if(std::find(vector.begin(), vector.end(), x)==vector.end()){
                 array[counter]=x;
                 vector.push_back(x);
                 counter++;
-            }
+             }
         }
         std::sort(array, array+numberOfObjects);
+
     }
     
-    bool binarySearch(int number)
+    bool binarySearch(int number,int k)
     {
-        int min=0;
+        int min=k;
         int max=numberOfObjects-1;
         int mid;
         
@@ -80,7 +80,7 @@ private:
         {
             for (int j=i+1; j<numberOfObjects; j++)
             {
-                if(binarySearch(-(array[i]+array[j])))
+                if(binarySearch(-(array[i]+array[j]),j+1))
                 {
                     numberOfValids++;
                     //cout<<array[i]<<"   "<<array[j]<<"  "<<-(array[i]+array[j])<<endl;
@@ -102,9 +102,7 @@ private:
     void start()
     {
         initialize();
-        
-        
-        initialize();
+
 
         startingTime=time(0);
 
